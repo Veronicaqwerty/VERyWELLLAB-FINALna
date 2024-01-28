@@ -1,0 +1,117 @@
+<style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black; /* Changed background color to black */
+    }
+    
+    /* Styles for the registration form elements */
+    .container {
+      width: 80%;
+      margin: 50px auto;
+      background-color: rgba(255, 255, 255, 0.3);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 0.6s ease; /* Adding animation */
+    }
+    
+    .content {
+      text-align: left;
+    }
+     .details {
+      font-size: 20px; /* Adjust label font size */
+      color: black; /* Change label font color */
+      font-weight: bold; /* Add font weight for emphasis */
+    }
+    h1 {
+      color: #333;
+    }
+    
+    .input-box {
+      margin-bottom: 15px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="submit"],
+    input[type="radio"] {
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 20px;
+      box-sizing: border-box;
+      transition: border-color 0.3s ease; /* Adding transition for smoother hover effect */
+    }
+    
+    input[type="submit"] {
+      background-color: #03a9f4;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      /* Adding box-shadow for button hover effect */
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #0288d1;
+    }
+
+    /* Your cartoonic and lively styles can be added here */
+    /* For example, you can add colors, rounded corners, shadows, animations, etc. */
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="radio"],
+    input[type="submit"] {
+      /* Adding rounded corners and shadow for input elements */
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      background-color: #f9f9f9;
+    }
+    
+    input[type="submit"] {
+      /* Adjusting button styles */
+      padding: 12px 20px;
+      border: none;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      outline: none;
+      margin-top: 20px;
+    }
+/* Styling for radio buttons */
+    input[type="radio"] {
+      /* Your custom radio button styles */
+      margin-right: 8px; /* Adjust spacing between radio button and label */
+      transform: scale(1.5); /* Increase radio button size */
+    }
+
+    /* Styling for radio button text */
+    input[type="radio"] + label {
+      font-size: 16px; /* Adjust radio button text font size */
+      color: #fff; /* Change radio button text color */
+      vertical-align: middle; /* Align text vertically with the radio button */
+    }
+    input[type="submit"]:hover {
+      /* Adding hover effect for button */
+      transform: translateY(-3px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Adding animation */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
