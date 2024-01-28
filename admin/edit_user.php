@@ -23,7 +23,42 @@ if (isset($_GET['user_id'])) {
     <meta charset="UTF-8">
     <title>Edit User</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
+    <style>
+        /* Additional Styles */
+        body {
+        font-family: Arial, sans-serif;
+        background-image: url('../images/smoke.jpg');
+       background-size: cover;
+        background-repeat: repeat;
+            margin: 0;
+            padding: 0px;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="submit"] {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 
 <body>
