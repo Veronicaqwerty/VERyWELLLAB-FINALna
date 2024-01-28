@@ -1,4 +1,12 @@
+<?php
+session_start();
+if (!isset($_SESSION['user_id'])) {
+    header("Location: ../login.php"); // Redirect to the login page if not logged in
+    exit();
+}
 
+include 'db_connection.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
