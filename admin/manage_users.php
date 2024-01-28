@@ -159,3 +159,46 @@ HTML;
 
 </body>
 </html>
+<style>
+        body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/bg5.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0px;
+    backdrop-filter: blur(5px); /* Adjust the blur strength as needed */
+}
+
+
+        /* Table styling */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #fff; /* Changing text color to white */
+  border-collapse: collapse; /* Collapsing borders for a cleaner look */
+}
+
+/* Header cells */
+th, td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #fff; /* Adjusting border color */
+}
+
+th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #fff; /* Adjusting header bottom border */
+}
+
+/* Alternating row colors */
+tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.1); /* Lighter background color for odd rows */
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Darker background on hover */
+}
+
+    </style>
